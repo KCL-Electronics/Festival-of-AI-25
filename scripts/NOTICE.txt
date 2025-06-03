@@ -1,0 +1,5 @@
+raj_bfs.py is from last year's FoAI, and served as testing for this year. Deprecated.
+
+oze_astar.py is a deep modification of raj_bfs.py, incorporating an A* algorithm instead from the algorithm zoo.
+
+The .ino files were both for testing purposes, during development in the Wheatstone Makerspace.

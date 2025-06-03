@@ -1,0 +1,11 @@
+api/.venv/
+<<<<<<< Updated upstream
+
+node_modules/
+.token
+=======
+simulation/intro_video.mp4
+.DS_Store
+simulation/.intro_video.mp4.icloud
+simulation/intro_video.mp4
+>>>>>>> Stashed changes
