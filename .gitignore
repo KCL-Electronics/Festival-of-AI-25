@@ -1,11 +1,13 @@
+# Python venv
 api/.venv/
-<<<<<<< Updated upstream
 
+# Node dependencies
 node_modules/
+
+# Tokens/secrets
 .token
-=======
-simulation/intro_video.mp4
+
+# macOS
 .DS_Store
-simulation/.intro_video.mp4.icloud
 simulation/intro_video.mp4
->>>>>>> Stashed changes
+simulation/.intro_video.mp4.icloud
