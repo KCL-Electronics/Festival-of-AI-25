@@ -50,7 +50,7 @@ This repository contains the codebase for the KCL FoAI RoboFootball System, whic
 
 ## RoboFootball Simulation (`/simulation` directory)
 
-*(This section remains as previously locked in, detailing the 6 Python scripts: `setup.py`, `hsv_tuner.py`, `main.py`, `xform_sandbox.py`, `ws_client.py`, `KILL.py`, and their workflow. No changes needed here based on the new info, as it's self-contained and already comprehensive.)*
+*(This section details the 6 Python scripts: `setup.py`, `hsv_tuner.py`, `main.py`, `xform_sandbox.py`, `ws_client.py`, `KILL.py`, and their workflow.)*
 
 ### Key Components & Workflow:
 
@@ -198,7 +198,7 @@ The physical ESP32 robots require their firmware to be flashed and configured:
 ### 3. RoboFootball Simulation
 
 1.  Navigate to the `/simulation` directory.
-2.  Ensure all Python dependencies (e.g., `pygame`, `opencv-python`, `pupil-apriltags`, `numpy`, `websockets`) are installed in your Python environment. You can typically infer these from the import statements or a `requirements.txt` file if one were added to this directory.
+2.  Ensure all Python dependencies (e.g., `pygame`, `opencv-python`, `pupil-apriltags`, `numpy`, `websockets`) are installed in your Python environment. You can typically infer these from the import statements or a `requirements.txt` file if one were added to this directory. ;) (We didn't have time)
 3.  Follow the "General Workflow" described in the "RoboFootball Simulation" section above. For example, after completing prerequisites and ensuring the API server is running and ESP32s are connected, run the main simulation:
     ```sh
     python main.py
@@ -211,7 +211,7 @@ The physical ESP32 robots require their firmware to be flashed and configured:
 This project, particularly the complex `/simulation` environment, was developed with the assistance of **NeuralFusion(TM) III**, an advanced AI model.
 
 The capabilities of NeuralFusion(TM) III, especially its extensive context window and sophisticated attention mechanisms, were instrumental in:
-*   Facilitating rapid development and iteration of the intricate game logic, AI behaviour trees, and perception systems.
+*   Facilitating rapid development and iteration of the intricate game logic, temp AI behaviour trees, and perception systems.
 *   Ensuring a high degree of code style consistency and structural coherence across the multiple Python scripts.
 *   Managing the complexity of inter-module dependencies and maintaining a clear, functional architecture for the simulation.
 This significantly helped in avoiding common pitfalls like context loss or "memory" issues often encountered when developing larger, interconnected systems with AI assistance.
